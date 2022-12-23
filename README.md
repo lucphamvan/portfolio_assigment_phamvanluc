@@ -15,8 +15,11 @@ npm start
 ## Explain
 
 In this project I assume we use correct format in csv file as request description
+
 I use API [get price](https://min-api.cryptocompare.com/data/pricemulti?fsyms=ETH,BNB&tsyms=USD) to get price of multiple token
+
 I use library [line-reader](https://www.npmjs.com/package/line-reader) to easy read line by line from big csv file to extract information then calculate amount of coin invested.
+
 After that I use the price token from API to calculate Portfolio
 
 ## Project structure
